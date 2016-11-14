@@ -3,7 +3,7 @@
 * 点睛spring 4.x
     * [x] [spring 基础](DOC/01.Spring-base.md)
     * [x] [spring 项目快速搭建](DOC/01.Spring-start.md)
-    * [ ] [spring 基础配置]()
+    * [x] [spring 基础配置](DOC/01.Spring-base-config.md)
 * Spring 常用配置
     * [ ] [Bean 的 Scope]()
     * [ ] [Spring EL 和资源调用]()
