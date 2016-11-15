@@ -17,6 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.1.7.RELEASE</spring.version>
         <commons-io.version>2.4</commons-io.version>
+        <jsr.version>1.0</jsr.version>
     </properties>
 
     <dependencies>
@@ -35,10 +36,18 @@
             <version>${commons-io.version}</version>
         </dependency>
 
+        <!-- EL -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-expression</artifactId>
             <version>${spring.version}</version>
+        </dependency>
+
+        <!-- JSR-250-->
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>jsr250-api</artifactId>
+            <version>${jsr.version}</version>
         </dependency>
     </dependencies>
 </project>

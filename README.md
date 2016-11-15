@@ -7,7 +7,7 @@
 * Spring 常用配置
     * [x] [Bean 的 Scope](DOC/02.bean-scope.md)
     * [x] [Spring EL 和资源调用](DOC/02.spring-el.md)
-    * [ ] [Bean 的初始化与销毁](DOC/02.spring-life.md)
+    * [x] [Bean 的初始化与销毁](DOC/02.spring-life.md)
     * [ ] [Profile](DOC/02.spring-profile.md)
     * [ ] [事件（Application Event）](DOC/02.application-event.md)
 * Spring 高级话题  
