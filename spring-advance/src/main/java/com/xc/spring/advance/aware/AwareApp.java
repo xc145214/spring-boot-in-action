@@ -14,8 +14,10 @@
  */
 package com.xc.spring.advance.aware;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 /**
- *  XXXXXXXXXXXXXXXXXXXXX
+ *  Main 类。
  *
  *  @author xiachuan at 2016/11/17 17:57。
  */
@@ -23,6 +25,15 @@ package com.xc.spring.advance.aware;
 public class AwareApp {
 
     public static void main(String[] args) {
+
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(AwareConfig.class);
+
+        AwareService awareService = context.getBean(AwareService.class);
+
+        awareService.outputResult();
+
+        context.close();
 
     }
 }
