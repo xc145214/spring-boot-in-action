@@ -12,8 +12,8 @@
     * [x] [事件（Application Event）](DOC/02.spring-event.md)
 * Spring 高级话题  
     * [x] [Spring Aware](DOC/03.spring-aware.md)
-    * [ ] [多线程]()
-    * [ ] [计划任务]()
+    * [x] [多线程](DOC/03.spring-thread.md)
+    * [x] [计划任务](DOC/03.spring-schedule.md)
     * [ ] [条件注解@Conditional]()
     * [ ] [组合注解和元注解]()
     * [ ] [@Enable* 注解的工作原理]()
