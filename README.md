@@ -9,7 +9,7 @@
     * [x] [Spring EL 和资源调用](DOC/02.spring-el.md)
     * [x] [Bean 的初始化与销毁](DOC/02.spring-life.md)
     * [x] [Profile](DOC/02.spring-profile.md)
-    * [ ] [事件（Application Event）](DOC/02.application-event.md)
+    * [x] [事件（Application Event）](DOC/02.spring-event.md)
 * Spring 高级话题  
     * [ ] [Spring Aware]()
     * [ ] [多线程]()
