@@ -11,7 +11,7 @@
     * [x] [Profile](DOC/02.spring-profile.md)
     * [x] [事件（Application Event）](DOC/02.spring-event.md)
 * Spring 高级话题  
-    * [ ] [Spring Aware]()
+    * [x] [Spring Aware](DOC/03.spring-aware.md)
     * [ ] [多线程]()
     * [ ] [计划任务]()
     * [ ] [条件注解@Conditional]()
