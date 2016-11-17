@@ -14,7 +14,7 @@
     * [x] [Spring Aware](DOC/03.spring-aware.md)
     * [x] [多线程](DOC/03.spring-thread.md)
     * [x] [计划任务](DOC/03.spring-schedule.md)
-    * [ ] [条件注解@Conditional]()
+    * [x] [条件注解@Conditional](DOC/03.spring-condition.md)
     * [ ] [组合注解和元注解]()
     * [ ] [@Enable* 注解的工作原理]()
     * [ ] [测试]()
