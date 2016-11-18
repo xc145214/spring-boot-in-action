@@ -15,7 +15,7 @@
     * [x] [多线程](DOC/03.spring-thread.md)
     * [x] [计划任务](DOC/03.spring-schedule.md)
     * [x] [条件注解@Conditional](DOC/03.spring-condition.md)
-    * [ ] [组合注解和元注解]()
+    * [x] [组合注解和元注解](03.annotation.md)
     * [ ] [@Enable* 注解的工作原理]()
     * [ ] [测试]()
 * Spring MVC基础
