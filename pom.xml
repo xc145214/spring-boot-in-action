@@ -9,6 +9,7 @@
     <module>spring-base</module>
     <module>spring-config</module>
     <module>spring-advance</module>
+    <module>spring-mvc-start</module>
   </modules>
   <packaging>pom</packaging>
 
