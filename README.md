@@ -16,7 +16,7 @@
     * [x] [计划任务](DOC/03.spring-schedule.md)
     * [x] [条件注解@Conditional](DOC/03.spring-condition.md)
     * [x] [组合注解和元注解](03.annotation.md)
-    * [ ] [@Enable* 注解的工作原理]()
+    * [x] [@Enable* 注解的工作原理](03.enable.md)
     * [ ] [测试]()
 * Spring MVC基础
     * [ ] [Spring MVC概述]()
