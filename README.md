@@ -19,11 +19,11 @@
     * [x] [@Enable* 注解的工作原理](03.spring-enable.md)
     * [x] [测试](03.spring-test.md)
 * Spring MVC基础
-    * [ ] [Spring MVC 项目快速搭建](DOC/04.spring-mvc-start.md)
-    * [ ] [Spring MVC 常用注解](DOC/04.spring-mvc-anno.md)
-    * [ ] [Spring MVC 基本配置](DOC/04.spring-mvc-base-config.md)
-    * [ ] [Spring MVC 高级配置](DOC/04.spring-mvc-advance-config.md)
-    * [ ] [Spring MVC 测试](DOC/04.spring-mvc-test.md)
+    * [x] [Spring MVC 项目快速搭建](DOC/04.spring-mvc-start.md)
+    * [x] [Spring MVC 常用注解](DOC/04.spring-mvc-anno.md)
+    * [x] [Spring MVC 基本配置](DOC/04.spring-mvc-base-config.md)
+    * [x] [Spring MVC 高级配置](DOC/04.spring-mvc-advance-config.md)
+    * [x] [Spring MVC 测试](DOC/04.spring-mvc-test.md)
 * Spring Boot 基础
     * [ ] [Spring Boot 概述]()
     * [ ] [Spring Boot 快速搭建]()
