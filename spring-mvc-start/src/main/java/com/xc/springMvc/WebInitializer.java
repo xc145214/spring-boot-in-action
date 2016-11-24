@@ -22,10 +22,10 @@ public class WebInitializer implements WebApplicationInitializer {
         ctx.setServletContext(servletContext);
 
         /** 注册Spring MVC 的 DispatcherServlet*/
-       ServletRegistration.Dynamic servlet = servletContext.addServlet("dispatcher",new DispatcherServlet(ctx));
-        servlet.addMapping("/");
+        ServletRegistration.Dynamic servlet = servletContext.addServlet("dispatcher", new DispatcherServlet(ctx));
+        servlet.addMapping("/index");
         servlet.setLoadOnStartup(1);
-       /** 支持异步 */
+        /** 支持异步 */
         servlet.setAsyncSupported(true);
 
     }
