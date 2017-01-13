@@ -12,26 +12,40 @@
  * HONGLING CAPITAL CONFIDENTIAL AND PROPRIETARY
  * ***********************************************************************
  */
-package com.xc;
+package com.xc.config;
 
-import org.springframework.boot.Banner;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
 /**
- * 程序入口。
+ *  配置
  *
- * @author xiachuan at 2017/1/13 11:10。
+ *  @author xiachuan at 2017/1/13 13:32。
  */
-@SpringBootApplication
-public class SampleApplication {
+
+@Component
+@ConfigurationProperties(prefix = "author",locations = {"classpath:author.properties"})
+public class AuthorSetting {
+
+    private String name;
+
+    private Long age;
 
 
-    public static void main(String[] args) {
+    public String getName() {
+        return name;
+    }
 
-        SpringApplication app = new SpringApplication(SampleApplication.class);
-        app.setBannerMode(Banner.Mode.OFF);//关闭
-        app.run(args);
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Long getAge() {
+        return age;
+    }
+
+    public void setAge(Long age) {
+        this.age = age;
     }
 }
 
