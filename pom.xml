@@ -2,6 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.4.3.RELEASE</version>
+  </parent>
+
   <groupId>com.xc</groupId>
   <artifactId>spring-boot-in-action</artifactId>
   <version>1.0-SNAPSHOT</version>
@@ -10,6 +16,7 @@
     <module>spring-config</module>
     <module>spring-advance</module>
     <module>spring-mvc-start</module>
+    <module>springboot-core</module>
   </modules>
   <packaging>pom</packaging>
 

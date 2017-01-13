@@ -24,11 +24,8 @@
     * [x] [Spring MVC 基本配置](DOC/04.spring-mvc-base-config.md)
     * [x] [Spring MVC 高级配置](DOC/04.spring-mvc-advance-config.md)
     * [x] [Spring MVC 测试](DOC/04.spring-mvc-test.md)
-* Spring Boot 基础
-    * [ ] [Spring Boot 概述]()
-    * [ ] [Spring Boot 快速搭建]()
 * Spring Boot 核心
-    * [ ] [基本配置]()
+    * [x] [基本配置](DOC/05.base-config.md)
     * [ ] [外部配置]()
     * [ ] [日志配置]()
     * [ ] [Profile 配置]()
