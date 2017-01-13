@@ -15,6 +15,7 @@
 package com.xc.controller;
 
 import com.xc.config.AuthorSetting;
+import com.xc.myAutoConfig.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -38,6 +39,9 @@ public class SampleController {
     @Autowired
     private AuthorSetting authorSetting;
 
+    @Autowired
+    private HelloService helloService;
+
     @RequestMapping("/")
     @ResponseBody
     String home() {
@@ -54,6 +58,12 @@ public class SampleController {
     @ResponseBody
     String author(){
         return "author name is: "+ authorSetting.getName() + "; and  author age is: "+ authorSetting.getAge();
+    }
+
+    @RequestMapping("/hello")
+    @ResponseBody
+    String hello() {
+        return helloService.sayHello();
     }
 }
 

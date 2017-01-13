@@ -17,6 +17,7 @@
     <module>spring-advance</module>
     <module>spring-mvc-start</module>
     <module>springboot-core</module>
+    <module>springboot-myAutoConfig</module>
   </modules>
   <packaging>pom</packaging>
 

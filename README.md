@@ -26,8 +26,5 @@
     * [x] [Spring MVC 测试](DOC/04.spring-mvc-test.md)
 * Spring Boot 核心
     * [x] [基本配置](DOC/05.base-config.md)
-    * [ ] [外部配置]()
-    * [ ] [日志配置]()
-    * [ ] [Profile 配置]()
-    * [ ] [运行原理]()
+    * [x] [运行原理](DOC/05.work-principle.md)
     * [ ] [运行原理]()
