@@ -27,4 +27,9 @@
 * Spring Boot 核心
     * [x] [基本配置](DOC/05.base-config.md)
     * [x] [运行原理](DOC/05.work-principle.md)
-    * [ ] [运行原理]()
+* Spring Boot web 开发
+    * [x] [thymeleaf 模板引擎](DOC/06.web-thymeleaf.md)
+    * [x] [web 配置](DOC/06.web-config.md)
+    * [x] [tomcat 配置](DOC/06.web-tomcat.md)
+    * [x] [Favicon 配置](DOC/06.web-favicon.md)
+    * [x] [websocket 配置](DOC/06.web-websocket.md)

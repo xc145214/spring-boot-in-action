@@ -18,6 +18,7 @@
     <module>spring-mvc-start</module>
     <module>springboot-core</module>
     <module>springboot-myAutoConfig</module>
+    <module>web-thymeleaf</module>
   </modules>
   <packaging>pom</packaging>
 
