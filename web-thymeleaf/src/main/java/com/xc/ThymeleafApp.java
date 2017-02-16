@@ -13,4 +13,6 @@ public class ThymeleafApp {
         SpringApplication application = new SpringApplication(ThymeleafApp.class);
         application.run(args);
     }
+
+
 }
